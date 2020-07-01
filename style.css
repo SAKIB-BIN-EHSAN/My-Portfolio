@@ -1,0 +1,92 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* Style for header,paragraph, anchor, image tag starts*/
+h1 {
+    font-size: 40px;
+}
+
+.paragraph-style{
+    font-size: 17px; 
+    font-weight: bold; 
+}
+
+.hire-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, deeppink, deeppink);
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+img {
+    width: 100%;
+}
+/* Style for header,paragraph, anchor, image tag ends*/
+
+
+/* Style for section tag starts */
+section {
+    height: 400px;
+    margin-bottom: 150px;
+}
+
+.section-myself {
+    background-image: url("images/background-images/header-bg.png");
+    background-repeat: no-repeat;
+}
+
+.section-biography {
+    background-image: url("images/background-images/biography-bg.png");
+    background-repeat: no-repeat;
+}
+
+.section-latest-work {
+    background-image: url("images/background-images/latest-work-bg.png");
+    background-repeat: no-repeat;
+}
+
+.section-client {
+    text-align: center;
+}
+/* Style for section tag ends */
+
+
+/* Style for div tag starts */
+
+.myself {
+    width: 40%;
+    float: left;
+    margin-left: 2%;
+    padding-left: 5%;
+}
+
+.work-image {
+    width: 25%;
+    float: left;
+    margin-left: 2%;
+    padding-left: 5%;
+}
+
+#client-top {
+    text-align: center;
+    margin-left: 470px;
+    display: inline;
+}
+
+#client-message {
+    height: 35%;
+    width: 40%;
+    color:white;
+    background-color: #FF4A92;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 30px;
+}
+/* Style for div tag ends */
